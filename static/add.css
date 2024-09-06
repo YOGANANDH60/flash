@@ -1,0 +1,52 @@
+h1{
+    background-color: rgb(54, 54, 190);
+    color: white;
+    text-align: center;
+}
+
+label{
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 25px;
+    text-shadow: 8px 5px 1px rgb(127, 141, 155);  
+}
+div{
+    border: 3px solid rgb(153, 170, 187);
+    width: 700px;
+    height: 400px;
+    background-color: rgb(117, 167, 167);
+    justify-items: center;
+    margin-left: 30%;
+}
+
+input{
+    width: 90%;
+    margin-left: 30px;
+    padding: 10px;
+    outline: none;
+    margin-top: 4px;
+}
+input:focus{
+    border:3px solid green;
+}
+.btn{
+    width: 150px;
+    color: rgb(200, 133, 50);
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 15px;
+    border: 3px solid rgb(153, 170, 187);
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 50%;
+    background: transparent;
+    border: 3px solid rgb(13, 14, 13);
+    color: white;
+    text-transform: uppercase;
+}
+

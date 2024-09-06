@@ -1,0 +1,41 @@
+h1{
+    background-color: rgb(54, 54, 190);
+    color: aliceblue;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgb(54, 54, 190);
+    color: aliceblue;
+    position: relative;
+    left: 74%;
+}
+
+p a:hover{
+    opacity: 50%;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+ tr, td, th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px 50px 10px 50px;   
+}
+
+table tr td a{
+    text-decoration: none;
+    background-color: rgb(54, 54, 190);
+    color: white;
+}
